@@ -76,6 +76,8 @@ You Created. --> Save.
 	export KOPS_STATE_STORE=s3://edsamkops
  
       source .bashrc  
+
+      echo $NAME #to check if edsam.k8s.local
 	
 ### 7) Create sshkeys before creating cluster
 ```sh
